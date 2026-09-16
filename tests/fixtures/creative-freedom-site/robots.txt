@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://creative-plumber-fixture.pages.dev/sitemap.xml

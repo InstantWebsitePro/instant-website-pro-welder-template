@@ -1,0 +1,17 @@
+{
+  "infrastructure_version": "plumber-v7-infrastructure-7.0.0",
+  "release_date": "2026-09-12",
+  "workflow_generation": "v7-plumber-program",
+  "contractor_system_pack": "6.0",
+  "contractor_business_assets": "6.0",
+  "phone_package_contract": "6.0.0",
+  "site_manifest_contract": "6.0",
+  "legacy_url_plan_contract": "1.0",
+  "public_policy_contract": "6.0.0",
+  "minimum_python": "3.11",
+  "github_runner_python": "3.13",
+  "node_test_runtime": ">=20",
+  "status": "candidate-pending-new-live-validation",
+  "program_release": "7.0",
+  "transport_compatibility_note": "6.0 schemas and protected field names retained intentionally."
+}

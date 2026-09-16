@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://plumber-v7-test.pages.dev/sitemap.xml

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <font id="ArcSentinel" horiz-adv-x="1000">
+      <font-face font-family="Arc Sentinel" units-per-em="1000" ascent="820" descent="-180"/>
+      <glyph unicode="A" horiz-adv-x="760" d="M20 0 300 700h170L740 0H560l-52 155H250L195 0H20Zm282 300h155L382 525 302 300Z"/>
+      <glyph unicode="R" horiz-adv-x="820" d="M60 0v700h360c190 0 300-90 300-245 0-106-52-181-145-218L760 0H565L410 210H225V0H60Zm165 350h185c92 0 140 34 140 101 0 68-48 104-140 104H225v-205Z"/>
+      <glyph unicode="C" horiz-adv-x="800" d="M420-20C180-20 45 120 45 350S180 720 420 720c145 0 260-55 326-158L610 480c-42 61-102 92-180 92-139 0-220-80-220-222s81-222 220-222c78 0 138 31 180 92l136-82C680 35 565-20 420-20Z"/>
+    </font>
+  </defs>
+</svg>

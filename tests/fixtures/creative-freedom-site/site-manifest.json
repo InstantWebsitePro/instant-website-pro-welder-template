@@ -1,0 +1,41 @@
+{
+  "schema_version": "6.0",
+  "site_name": "Arc Sentinel Fabrication Lab",
+  "business_type": "welder-metal-fabricator",
+  "contractor_profile": {
+    "trade_categories": ["welding-metalwork"],
+    "operating_model": "service-area",
+    "address_publication": "service-area-only",
+    "lead_actions": ["call"],
+    "emergency_service": "not-offered",
+    "proof_types": []
+  },
+  "public_domain": "https://creative-plumber-fixture.pages.dev",
+  "package_version": "2026.08.30-creative.1",
+  "build_date": "2026-08-30T12:00:00Z",
+  "stage": "production",
+  "workflow_version": "6.0",
+  "system_version": "contractor-system-pack-6.0",
+  "business_assets_version": "contractor-business-assets-6.0",
+  "repository_package_spec": "6.0",
+  "design_lock_reference": "creative-fixture-master-direction",
+  "final_approval_reference": "creative-fixture-release-approval",
+  "primary_action": {"label": "Inspect the field systems", "url": "/field-systems"},
+  "pages": [
+    {"file_path": "index.html", "url_path": "/", "canonical_url_path": "/", "title": "Arc Sentinel Fabrication Lab | Creative Fixture", "purpose": "Prove a visually unrelated contractor homepage can use the protected publishing system.", "indexable": true},
+    {"file_path": "capabilities/field-systems.html", "url_path": "/field-systems", "canonical_url_path": "/field-systems", "title": "Field Systems | Arc Sentinel Fabrication Lab", "purpose": "Prove nested page files and custom public routes can replace the safety shell.", "indexable": true},
+    {"file_path": "404.html", "url_path": "/404.html", "canonical_url_path": "/404.html", "title": "Route Offline | Arc Sentinel Fabrication Lab", "purpose": "Custom page-not-found experience for the creative fixture.", "indexable": false}
+  ],
+  "legacy_routes": [],
+  "icons": [
+    {"rel": "icon", "file_path": "assets/icons/favicon.ico", "mime_type": "image/x-icon", "sizes": ["16x16", "32x32", "48x48"]},
+    {"rel": "icon", "file_path": "assets/icons/favicon.svg", "mime_type": "image/svg+xml", "sizes": ["any"]},
+    {"rel": "apple-touch-icon", "file_path": "assets/icons/apple-touch-icon.png", "mime_type": "image/png", "sizes": ["180x180"]},
+    {"rel": "manifest", "file_path": "site.webmanifest", "mime_type": "application/manifest+json", "sizes": []},
+    {"rel": "app-icon", "file_path": "assets/icons/icon-192.png", "mime_type": "image/png", "sizes": ["192x192"]},
+    {"rel": "app-icon", "file_path": "assets/icons/icon-512.png", "mime_type": "image/png", "sizes": ["512x512"]}
+  ],
+  "external_media": [],
+  "public_documents": [],
+  "forms": []
+}

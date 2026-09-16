@@ -1,0 +1,15 @@
+{
+  "status": "not-populated",
+  "approval_date": null,
+  "direction_name": null,
+  "brand_attributes": [],
+  "layout_principles": [],
+  "color_roles": {},
+  "typography_roles": {},
+  "imagery_rules": [],
+  "interaction_rules": [],
+  "mobile_priority": [],
+  "prohibited_patterns": [],
+  "approved_reference_screens": [],
+  "notes": "Replace this file only after the owner approves the synthesized homepage look-and-feel concept. Three written directions are private design exploration; approval applies to the visible homepage concept, not publication."
+}

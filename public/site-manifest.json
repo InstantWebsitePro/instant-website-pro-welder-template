@@ -1,0 +1,133 @@
+{
+  "schema_version": "6.0",
+  "site_name": "Plumber Website Starter",
+  "business_type": "contractor",
+  "contractor_profile": {
+    "trade_categories": [
+      "plumbing"
+    ],
+    "operating_model": "not-confirmed",
+    "address_publication": "not-confirmed",
+    "lead_actions": [],
+    "emergency_service": "not-confirmed",
+    "proof_types": []
+  },
+  "public_domain": "https://plumber-starter-shell.pages.dev",
+  "package_version": "starter-plumber-7.0.0",
+  "build_date": "2026-09-12T00:00:00Z",
+  "stage": "starter",
+  "workflow_version": "6.0",
+  "system_version": "contractor-system-pack-6.0",
+  "business_assets_version": "contractor-business-assets-6.0",
+  "repository_package_spec": "6.0",
+  "design_lock_reference": "starter-shell",
+  "final_approval_reference": "starter-shell",
+  "primary_action": {
+    "label": "View setup status",
+    "url": "/setup-status.html"
+  },
+  "pages": [
+    {
+      "file_path": "index.html",
+      "url_path": "/",
+      "canonical_url_path": "/",
+      "title": "Plumber Website Publishing System Ready",
+      "purpose": "Safe starter homepage shown before the approved contractor site is installed.",
+      "indexable": false
+    },
+    {
+      "file_path": "setup-status.html",
+      "url_path": "/setup-status.html",
+      "canonical_url_path": "/setup-status.html",
+      "title": "Plumber Website Infrastructure Status",
+      "purpose": "Explains that the protected publishing system is ready for an approved website.",
+      "indexable": false
+    },
+    {
+      "file_path": "404.html",
+      "url_path": "/404.html",
+      "canonical_url_path": "/404.html",
+      "title": "Page Not Found | Plumber Website Starter",
+      "purpose": "Helpful page-not-found response for visitors.",
+      "indexable": false
+    },
+    {
+      "file_path": "services.html",
+      "url_path": "/services.html",
+      "canonical_url_path": "/services.html",
+      "title": "Services Awaiting Approval | Plumber Website Starter",
+      "purpose": "Safe service-planning page that publishes no unconfirmed service, area, price, or qualification claims.",
+      "indexable": false
+    },
+    {
+      "file_path": "contact.html",
+      "url_path": "/contact.html",
+      "canonical_url_path": "/contact.html",
+      "title": "Estimate Routes Awaiting Approval | Plumber Starter",
+      "purpose": "Safe lead-route page that publishes no unconfirmed contact, response-time, or availability facts.",
+      "indexable": false
+    },
+    {
+      "file_path": "privacy.html",
+      "url_path": "/privacy.html",
+      "canonical_url_path": "/privacy.html",
+      "title": "Privacy Notice Awaiting Approval | Plumber Website Starter",
+      "purpose": "Safe policy placeholder until the contractor approves its accurate notice.",
+      "indexable": false
+    }
+  ],
+  "legacy_routes": [],
+  "icons": [
+    {
+      "rel": "icon",
+      "file_path": "assets/icons/favicon.ico",
+      "mime_type": "image/x-icon",
+      "sizes": [
+        "16x16",
+        "32x32",
+        "48x48"
+      ]
+    },
+    {
+      "rel": "icon",
+      "file_path": "assets/icons/favicon.svg",
+      "mime_type": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    },
+    {
+      "rel": "apple-touch-icon",
+      "file_path": "assets/icons/apple-touch-icon.png",
+      "mime_type": "image/png",
+      "sizes": [
+        "180x180"
+      ]
+    },
+    {
+      "rel": "manifest",
+      "file_path": "site.webmanifest",
+      "mime_type": "application/manifest+json",
+      "sizes": []
+    },
+    {
+      "rel": "app-icon",
+      "file_path": "assets/icons/icon-192.png",
+      "mime_type": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    },
+    {
+      "rel": "app-icon",
+      "file_path": "assets/icons/icon-512.png",
+      "mime_type": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "external_media": [],
+  "public_documents": [],
+  "forms": []
+}

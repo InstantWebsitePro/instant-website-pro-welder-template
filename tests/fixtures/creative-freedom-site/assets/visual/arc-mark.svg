@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Abstract fabrication arc mark">
+  <defs><linearGradient id="heat" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#ff5a1f"/><stop offset=".55" stop-color="#ffbd45"/><stop offset="1" stop-color="#4dd9ff"/></linearGradient></defs>
+  <path d="M18 128 62 20h36l44 108h-34l-8-23H58l-8 23H18Zm51-54h20L79 46 69 74Z" fill="none" stroke="url(#heat)" stroke-width="9" stroke-linejoin="bevel"/>
+  <path d="M25 139h110" stroke="#d8dde2" stroke-width="5" stroke-dasharray="7 7"/>
+</svg>

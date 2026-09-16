@@ -1,0 +1,49 @@
+<form method="post" action="/api/contact" data-contact-form>
+  <input type="hidden" name="form_type" value="estimate-request">
+
+  <div class="honeypot" aria-hidden="true">
+    <label for="website">Leave this field empty</label>
+    <input id="website" name="website" tabindex="-1" autocomplete="off">
+  </div>
+
+  <div class="field">
+    <label for="name">Name</label>
+    <input id="name" name="name" autocomplete="name" required>
+  </div>
+
+  <div class="field">
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" autocomplete="email">
+  </div>
+
+  <div class="field">
+    <label for="phone">Phone</label>
+    <input id="phone" name="phone" type="tel" autocomplete="tel">
+  </div>
+
+  <div class="field">
+    <label for="service-needed">What service do you need?</label>
+    <input id="service-needed" name="service_needed">
+  </div>
+
+  <div class="field">
+    <label for="service-location">City or service location</label>
+    <input id="service-location" name="service_location" autocomplete="street-address">
+  </div>
+
+  <div class="field">
+    <label for="message">Tell us about the work</label>
+    <textarea id="message" name="message" required></textarea>
+  </div>
+
+  <div class="checkbox">
+    <input id="privacy-consent" name="privacy_consent" type="checkbox" value="true" required>
+    <label for="privacy-consent">The contractor may use this information to respond. Read the <a href="/privacy.html">privacy notice</a>.</label>
+  </div>
+
+  <!-- Replace only the test site key. Keep data-action identical to TURNSTILE_EXPECTED_ACTION. -->
+  <div class="cf-turnstile" data-sitekey="REPLACE_WITH_PUBLIC_TURNSTILE_SITE_KEY" data-action="contact_submit"></div>
+  <button type="submit">Request an estimate</button>
+  <p role="status" aria-live="polite" data-form-status></p>
+</form>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>

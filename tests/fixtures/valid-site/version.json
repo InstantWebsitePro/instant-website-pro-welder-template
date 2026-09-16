@@ -1,0 +1,9 @@
+{
+  "package_version": "2026.08.29-test.1",
+  "build_date": "2026-08-29T12:00:00Z",
+  "workflow_version": "6.0",
+  "system_version": "contractor-system-pack-6.0",
+  "business_assets_version": "contractor-business-assets-6.0",
+  "repository_package_spec": "6.0",
+  "source": "V6 infrastructure acceptance fixture"
+}
