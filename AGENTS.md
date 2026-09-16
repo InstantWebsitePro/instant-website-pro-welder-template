@@ -1,4 +1,4 @@
-# Codex operating instructions — Welder Website V8
+# Codex operating instructions — Welder Website V9
 
 These instructions apply to every Codex task in this repository.
 
@@ -12,9 +12,19 @@ Use evidence in this order:
 2. `handoff/APPROVED_BUILD_BRIEF.md` and `handoff/DESIGN_LOCK.json`.
 3. Approved public facts in `handoff/PUBLIC_BUSINESS_FACTS.json`.
 4. The current production website in `public/`.
-5. The connected V8 Welder Website Program source and private business-assets source, when available.
+5. The connected V9 Welder Website Program source and private business-assets source, when available.
 
 Never invent a business fact. Resolve a missing or conflicting claim before publishing it.
+
+## V9 turn protocol
+
+Recover the latest private PROGRESS LEDGER.md and pending version/approval before choosing the next action. Route the whole reply: answer a side question briefly and return to the saved action; put a future idea in the backlog without expanding scope; apply new facts/changes only where affected; obey explicit pause/cancel or task replacement. Do not restart intake or lose a pending approval. When work is already authorized, perform it now through the next genuine decision or unavoidable blocker; do not end with a plan or ask for “continue.”
+
+Every homepage concept/revision must pass file 06's desktop/mobile design review and end with the explicit question: “Approve this homepage, tell me what to change, or say Randomize?” Save its exact version. Clear contextual approval starts the full build immediately without reapproval; a side comment or praise for one detail does not approve the whole concept. Read the whole reply: “looks good, also change the hero” requests a revised concept and its new approval, not immediate full build. A new fact triggers an impact check; retain approval when it does not materially change the approved concept. If approval already exists and is unaffected, a side question never creates another approval gate. Reuse unchanged finished-site approvals, but retain explicit authorization for the named public launch. After go-live approval, publish and verify; after the first asset-package yes, create/check/deliver the actual files and ZIP. No preview-only stopping point.
+
+Before voluntarily yielding, save the compact private ledger with stage, current version, actual approval scope, exact pending decision, next action/actor, blockers and backlog. Full JSON stays checkpoint-only under schema 6.0; Markdown-only ACTIVE/WAITING_OWNER/PAUSED/CANCELLED labels do not become JSON enums. If private writes are unavailable, keep accurate private conversation state and disclose that limit; never claim a save or background continuation. End with one clear needed action, not a menu of unnecessary tasks. Completion requires live verification, launch/restore record and assets delivered or explicitly declined. An explicit pause/cancel stops work and is never falsely marked complete. File 00 contains the full routing and persistence protocol.
+
+Private progress belongs outside this repository in the program’s private business-assets workspace. If only this repository is available, keep the same record in private conversation state and report that persistence limit; never commit a progress ledger or raw approval transcript. Read the connected program’s file 00 only when its protocol is needed, then retain the active stage.
 
 ## Path and privacy boundaries
 
@@ -24,13 +34,9 @@ Never commit private business records, raw interview notes, source media, licens
 
 ## Design sequence
 
-1. Confirm enough business facts, proof, media, customers, services, service area, and emotional qualities to design responsibly.
-2. Privately develop three genuinely different written directions, synthesize their strongest ideas, and build **only a homepage look-and-feel concept**.
-3. Let the owner Approve, request a normal change in plain language, or say `Randomize`. A Randomize request must produce a substantially different concept while respecting any plain-language direction supplied with it.
-4. Do not build the remaining pages until the homepage concept is approved.
-5. After approval, build every approved page, preserved old URL, action, policy, responsive state, and function. The approved homepage concept—not the starter shell—becomes the design reference.
+Infer a private business-specific creative brief from confirmed work, customers, materials, process, existing brand and genuine proof. High visual ambition is automatic; no mandatory boldness rating, inspiration links, taste-signal questionnaire or font/motif choices. Voluntary preferences and explicit restraints still control. Develop exactly three private, genuinely different high-quality directions, choose one coherent winner and borrow only compatible details. Create actual custom raster artwork with available image tools or native SVG/CSS where appropriate, then integrate typography, graphics, borders/icons and structural motifs across a distinctive hero and varied later sections. Never portray invented work, people or equipment as real proof. Build the homepage only, render/review desktop and mobile, and pass file 06's behavioral rubric before presentation. Generic SaaS-card, logo-swap or superficial-palette results require internal rebuilding first. Refined and clean can be ambitious; no universal industrial skin. Randomize materially changes composition, typography/media and graphics while preserving confirmed facts.
 
-The committed `public/` directory is a disposable safety shell, never a visual template. For a first production build, replace its starter-only pages and assets. Original local fonts, SVG artwork, icons, textures, imagery, animation, and JavaScript are welcome when they support the business’s distinct character and remain accessible, performant, and policy-compliant.
+End every checked homepage concept/revision with: “Approve this homepage, tell me what to change, or say Randomize?” Record its version and pending decision. A clear contextual approval starts the full site now; do not ask for permission to build it again. Before approval, build only the homepage. After approval, build every agreed page, preserved old address, action, policy, responsive state and function. The approved original homepage is the reference, never the disposable starter shell.
 
 ## Public build contract
 
@@ -70,11 +76,11 @@ Also inspect common phone and desktop widths. Test navigation, click-to-call, re
 
 ## Completion and Business Asset Package
 
-Do not call the program complete until the live HTTPS site is verified and the owner has received or explicitly declined the Business Asset Package. When accepted, create from approved branding and public facts: master logo exports, browser/device icons, Open Graph sharing image, concise brand guide PDF, two-sided print-ready business card with a tested direct HTTPS QR code, social avatar and cover exports, email-signature graphic, and a ZIP manifest. Add only 2–4 trade-specific extras that fit the welder's actual sales, field, follow-up, or commercial workflow. Every customer-facing file must use only the customer's approved brand—never Instant Website Pro, program/instructor branding, a program credit, or co-branding. Keep these assets private unless the owner asks to publish them, and test the final exports themselves.
+Do not call the program complete until the live HTTPS site is verified and the owner has received or explicitly declined the Business Asset Package. The first acceptance authorizes actual creation, checking and delivery of complete files and ZIP, with no second concept/export approval. Use sensible defaults, ask only for a blocking material input and continue independent assets; a preview cannot replace files. When accepted, create from approved branding and public facts: master logo exports, browser/device icons, Open Graph sharing image, concise brand guide PDF, two-sided print-ready business card with a tested direct HTTPS QR code, social avatar and cover exports, email-signature graphic, and a ZIP manifest. Add only 2–4 trade-specific extras that fit the welder's actual sales, field, follow-up, or commercial workflow. Every customer-facing file must use only the customer's approved brand—never Instant Website Pro, program/instructor branding, a program credit, or co-branding. Keep these assets private unless the owner asks to publish them, and test the final exports themselves.
 
 Before review or handoff, summarize visible changes in plain language, identify changed facts and their source, provide current phone and desktop evidence, report exact checks, identify unresolved live gates, and include a rollback note for risky changes.
 
-## Welder Program V8 security and customer experience
+## Welder Program V9 security and customer experience
 
 After the owner approves the design, implement and verify security as part of the build without adding a technical questionnaire. Tell the owner briefly that the program is checking secure connections, spam protection for enabled forms, safe handling of contact details, account access and a restore point. Report only controls actually configured or locally built; distinguish a code check from a live delivery/account check.
 
@@ -82,7 +88,7 @@ Use the owner-approved welding services, coverage, hours and response arrangemen
 
 Before replacing a live site, preserve DNS and email records, web routes, integrations and a tested restore plan. Private GitHub does not mean private Pages. Use noindex for preview indexing control; use tested access controls when the owner requires a private preview. Do not put customer information in any preview.
 
-Internal 6.0 manifest/schema/package identifiers are intentionally retained for compatibility; the deliverable is the Welder Program V8. Do not update these identifiers merely to match the program's marketing version. Keep the exact new release's local and live evidence separate from old versions.
+Internal 6.0 manifest/schema/package identifiers are intentionally retained for compatibility; the deliverable is the Welder Program V9. Do not update these identifiers merely to match the program's marketing version. Keep the exact new release's local and live evidence separate from old versions.
 
 ## Edition bootstrap
 

@@ -1,4 +1,4 @@
-# Instant Website Pro Welder Publishing System V8
+# Instant Website Pro Welder Publishing System V9
 
 This repository is the publishing and safety foundation for the **desktop Instant Website Pro program for welders and metal fabricators**. It validates public output, protects the private/public boundary, packages approved websites, supports Cloudflare Pages publishing and keeps a restore path. The owner supplies business knowledge and reviews the result; the program handles the website work.
 
@@ -29,7 +29,7 @@ website.zip                       deterministic full-site transport
 
 Never commit program prompts, private business records, confidential drawings, raw originals, account secrets or other customer data. The customer program's private folder and its parent are not Git roots.
 
-Keep `.github/`, `functions/`, `infrastructure/`, `scripts/`, `tests/`, `templates/` and repository instructions protected during ordinary website work. This coordinated V8 release changes only the edition instructions and this README relative to the inherited engine. Do not rewrite engine code to produce a new design. Generate `website.zip` through the provided packager; it is a validated output, not a file to hand-edit. Follow `AGENTS.md` for the precise approved output boundary.
+Keep `.github/`, `functions/`, `infrastructure/`, `scripts/`, `tests/`, `templates/` and repository instructions protected during ordinary website work. This coordinated V9 release changes only the edition instructions and this README relative to the inherited engine. Do not rewrite engine code to produce a new design. Generate `website.zip` through the provided packager; it is a validated output, not a file to hand-edit. Follow `AGENTS.md` for the precise approved output boundary.
 
 ## Repository map
 
@@ -45,11 +45,11 @@ templates/                        optional implementation snippets
 website.zip                       full-site transport; initial file is a placeholder
 ```
 
-## V8 edition and stable transport contract
+## V9 edition and stable transport contract
 
-Program content is V8; the tested schema and transport contract remains **6.0**. Use `business_type: welder-metal-fabricator` with `contractor_profile.trade_categories: ["welding-metalwork"]` for this edition's generated public manifest. Keep the existing nested fields and enums. Use truthful `LocalBusiness` structured data with only supported public facts; a valid schema is not a search-ranking promise.
+Program content is V9; the tested schema and transport contract remains **6.0**. Use `business_type: welder-metal-fabricator` with `contractor_profile.trade_categories: ["welding-metalwork"]` for this edition's generated public manifest. Keep the existing nested fields and enums. Use truthful `LocalBusiness` structured data with only supported public facts; a valid schema is not a search-ranking promise.
 
-`website.zip` contains the whole production website with `index.html` at ZIP root and must pass `infrastructure/importer-policy.json`. There is no parent wrapper folder, nested archive, bundled large video, private business source, raw capture, workbook or protected program file. Manifest/workflow/repository-contract values follow the existing 6.0 schema, even when the owner-facing program is V8.
+`website.zip` contains the whole production website with `index.html` at ZIP root and must pass `infrastructure/importer-policy.json`. There is no parent wrapper folder, nested archive, bundled large video, private business source, raw capture, workbook or protected program file. Manifest/workflow/repository-contract values follow the existing 6.0 schema, even when the owner-facing program is V9.
 
 The manifest accounts for pages, old routes, public documents, icons, external media and optional forms. Keep useful old URLs at the same path and purpose by default. Individually approved exact redirects are exceptions; do not redirect every old address to the homepage.
 
@@ -88,3 +88,9 @@ For urgent hosting recovery, use Cloudflare deployment history. For canonical so
 The creator release evidence records the exact published commit, template setting, file parity, checks and any live integration exercised. Historical engine evidence does not establish a new account connection or a new trade-specific live deployment. See `infrastructure/ACTIVATION_REHEARSAL.md` for the inherited rehearsal mechanics; interpret legacy names there as compatibility context. Each customer's approved site still needs its own domain, contact-delivery, mobile and restore checks.
 
 Support: support@instantwebsitepro.com. Do not send passwords, tokens or private customer details.
+
+## V9 guided progress and first concept
+
+The connected V9 program leads the owner through the next unfinished step after questions, side ideas and revisions. Keep an explicit pending decision and resume action in private progress. A revised preview ends with a clear approval or change question; approval advances into the next authorized work. Pause or stop when the owner asks. Never treat a decorative preview as a completed launch.
+
+Make the first actual homepage a high-ambition, business-specific design: a distinctive composition, custom graphic/material language, expressive typography and at least one memorable visual moment carried across sections. Create the design assets needed, using original code/vector work and available authorized image tools. A stock layout with renamed copy or colors fails review. Respect the owner's explicit preference for restraint and preserve useful contact actions, accessible reading and fast mobile use. The connected program's creative module defines the full review rubric.
